@@ -13,7 +13,7 @@ mensagem "FIM DE JOGO". As regras para este desafio são:
 2. **Diagrama de classe UML:**
    - Seguir exatamente o diagrama de classe abaixo:
    
-   ![Diagrama de classe](https://github.com/LucasFrancoBN/bar-java/blob/master/img/diagrama_classe.png)
+   ![Diagrama de classe](https://github.com/LucasFrancoBN/combate-java/blob/master/img/diagrama_classe.png)
    
 3. **Métodos:**
    - takeDamage: deve fazer com que o dano recebido venha do campeão passado como argumento do método.
