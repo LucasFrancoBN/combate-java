@@ -59,14 +59,19 @@ Antes de tudo, recomendo que você, pelo terminal, navegue até o diretório Des
 # Clone o repositório
 git clone https://github.com/LucasFrancoBN/combate-java.git
 
-# Acesse o diretório do projeto
-cd combate-java/src
+# Acesse o diretório da classe Program
+cd combate-java/src/application
 ```
 Agora basta você digitar no seu terminal
 ```bash
 # Compile o projeto
-javac Program.java
+javac Program.java ../entities/Champion.java
+```
+Retroceda ao diretório src e compile o programa
+```
+# Retrocedendo ao diretório src
+cd ../
 
 # Execute o programa
-java Program
+java application.Program
 ```
